@@ -93,7 +93,7 @@ class UclvClient(object):
         await asyncio.sleep(random())
         while self.TasksInProgress >= self.MaxTasks:
             await asyncio.sleep(random() * 4 + 1)
-        #@S0muell
+        #@JAGB2021
         self.TasksInProgress += 1
 
         try:
